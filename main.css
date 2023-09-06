@@ -1,0 +1,39 @@
+
+body {
+    font-family: "Creepster";
+    font-size: 2em;
+    background:black;
+    color:green;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /*centers items on the line (the x-axis by default)*/
+    align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+header {
+    opacity: 0;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    
+}
+
+footer a:link {
+    color: purple;
+}
+
+.fade-in {
+  animation: fadeIn 5s ease-in-out 0s forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
